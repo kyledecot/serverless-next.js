@@ -22,7 +22,6 @@ module.exports = function(...args) {
   } else if (typeof original === 'object') {
     Object.assign(finalConfig, original);
   }
-  Object.assign(finalConfig, target);
   return finalConfig;
 }
   `.trim();
